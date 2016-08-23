@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron container">
+      <h1>Welcome to Mystery Science Theater</h1>
+      <h3>Where dreams come to life!</h3>
+    </div>
+    <form>
+      <div class = "col-md-4 container">
+        <h4>Which movie do you want to see?</h4>
+        <select class="form-control movies">
+          <option value="1">Godzilla vs Megaladon</option>
+          <option value="2">Raiders of the Lost Ark</option>
+          <option value="3">Pokemon the Movie 2000</option>
+          <option value="4">Crouching Tiger Hidden Dragon</option>
+          <option value="5">Legend of the Drunken Master</option>
+        </select>
+        <div class = "container showtimes">
+          <h4>What time do you want to see said movie?</h4>
+          <div class="radio movieTimes">
+            <label>
+              <input type="radio" name="times" class="time" value="1">
+              12:30pm
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="times" class="time" value="2">
+            2:45pm
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="times" class="time" value="3">
+            5:30pm
+          </label>
+          </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="times" class="time" value="4">
+            8:00pm
+          </label>
+          </div>
+        </div>
+        <div class="container divAge">
+          <h4>How old are you?</h4>
+          <div class="radio custAge">
+            <label>
+              <input type="radio" name="age" class="custAge" value="1">
+              12 and under
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="age" class="custAge" value="2">
+            13-17
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="age" class="custAge" value="3">
+            18-55
+          </label>
+          </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="age" class="custAge" value="4">
+            Seniors 55+
+          </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-danger btn-lg">Get Yo Ticket Price FOO!!</button>
+      </div>
+    </form>
+    <h3 class="price">Your ticket price is: </h3>
+    <div id = "ticket" class = "col-md-8">
+    </div>
+  </body>
+</html>
