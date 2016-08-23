@@ -1,12 +1,17 @@
 body {
   background-color: gray;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cd/Toyogeki-Movie_Toyooka002.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 1500px 1300px;
+  color:white;
 }
 
 /*Class selectors*/
 .jumbotron {
   text-align: center;
-  border: 3px dashed black;
-  background-color: silver;
+  border: 5px solid black;
+  background-image: url("http://bestanimations.com/Money/money-animated-gif-4.gif");
 }
 
 .jumbotron h1 {
@@ -21,17 +26,22 @@ body {
 .btn {
   margin-top: 20px;
   display: block;
+  border: 3px solid black;
 }
 
-.price {
-  margin-left:20px;
+#price {
+  margin-right:50px;
 }
+
+
+.movies {
+  margin-bottom: 40px;
+}
+
 /*ID Selectors*/
 #ticket {
   display:none;
-  font-size: 20px;
-}
-
-#movies {
-  margin-bottom: 20px;
+  font-size: 40px;
+  color:white;
+  font-weight: bolder;
 }
